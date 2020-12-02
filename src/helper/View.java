@@ -10,13 +10,12 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
-public class View extends JFrame{
+public class View extends JFrame {
+
     private static final JTextField FIRST_DATE = new JTextField(8);
     private static final JTextField SECOND_DATE = new JTextField(8);
     private final JButton BUTTON_DAY_OF_LEAVE = new JButton("Дней основного отпуска");
     private final JButton BUTTON_DAY_BETWEEN_DATE = new JButton("Период между датами");
-    private JTextField firstDate;
-    private JTextField SecondDate;
     JLabel outputData;
 
     public void go() {
